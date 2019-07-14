@@ -1,0 +1,9 @@
+---
+title: "Restaurant Reviews Boston"
+type: "challenge"
+description: "Create a web application to review restaurants."
+tags: "system-check, rails"
+ignore:
+- "launch-sc-6-restaurant-reviews-boston.md"
+behaviors:
+  - rails
