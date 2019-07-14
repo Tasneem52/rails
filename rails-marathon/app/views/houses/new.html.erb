@@ -1,0 +1,17 @@
+<h1>New House Form</h1>
+
+<%= form_for @house do |f| %>
+  <%= f.label :name, "Name" %>
+  <%= f.text_field :name %><br />
+
+  <%= f.label :author, "Author" %>
+  <%= f.text_field :author %><br />
+
+  <%= f.label :source, "Source" %>
+  <%= f.text_field :source %><br />
+
+  <%= f.label :motto, "Motto" %>
+  <%= f.text_field :motto %><br />
+
+  <%= f.submit "Add House" %>
+<% end %>
